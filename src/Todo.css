@@ -1,0 +1,21 @@
+div.complete {
+	text-decoration: line-through;
+}
+
+.Todo {
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.8rem;
+}
+
+.Todo-body:hover {
+	cursor: pointer;
+}
+
+i {
+	padding: 0 10px;
+}
+
+i:hover {
+	cursor: pointer;
+}
