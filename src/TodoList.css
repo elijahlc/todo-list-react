@@ -2,6 +2,8 @@
 	width: 40vw;
 	padding: 5px;
 	margin: 50px;
+	height: 700px;
+	position: relative;
 	background-color: #184e77;
 	box-shadow: 13px 20px 24px -1px rgba(24, 78, 119, 0.73);
 	-webkit-box-shadow: 13px 20px 24px -1px rgba(24, 78, 119, 0.73);
@@ -18,6 +20,12 @@ header {
 
 header > * {
 	margin: 0;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
 }
 
 .TodoList-title {
@@ -41,9 +49,17 @@ header > * {
 	margin: 0 0 20px 0;
 }
 
+.TodoList-newtodo {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: flex-start;
+	margin: 10px 0;
+}
+
 h2 {
 	color: #fff;
 	font-size: 1.5rem;
 	font-weight: 400;
-	margin: 0 0 5px 0;
+	margin: 0 10px 0 0;
 }

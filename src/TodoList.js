@@ -58,8 +58,11 @@ const TodoList = () => {
 	return (
 		<div className="TodoList">
 			<header>
-				<p className="TodoList-title">Todo List!</p>
-				<p className="TodoList-subtitle">A simple React todo list app</p>
+				<p className="TodoList-title">To Do List!</p>
+				<p className="TodoList-subtitle">
+					made by <a href="https://github.com/elijahlc">elijahlc</a> \\
+					september 2022
+				</p>
 			</header>
 			<div className="TodoList-list">
 				{todos.map((todo) => (
@@ -84,7 +87,7 @@ const TodoList = () => {
 				))}
 			</div>
 			<div className="TodoList-newtodo">
-				<h2>New Todo</h2>
+				<h2>New to do:</h2>
 				<NewTodoForm addTodo={addTodo} />
 			</div>
 		</div>
